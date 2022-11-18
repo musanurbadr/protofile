@@ -19,7 +19,7 @@ body {
   
 }
 header {
-  background-color: rgb(116, 27, 148);
+  background-color: rgb(126, 35, 159);
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -51,13 +51,13 @@ header {
 section {
   padding: 100px 200px;
 }
-.main {
+.main  {
   width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/Windows-10-Kırmızı-Ekran-Hatası-ve-Çözümleri-1.jpg) no-repeat;
-  background-size: cover;
+  background:  url(images/hes.jpg) no-repeat;
+  background-size:cover;
   background-position: center;
   background-attachment: fixed;
 }
@@ -95,7 +95,7 @@ section {
   transition: 0.7s ease;
 }
 .main-btn:hover {
-  background-color:  rgb(126, 52, 172);
+  background-color: rgb(126, 52, 172);
   transform: scale(1.1 );
 }
 
@@ -109,13 +109,21 @@ section {
   margin-top: -9.8%;
 
 }
+.title-t {
+  display: flex;
+  justify-content: center;
+  color: rgb(109, 20, 142) ;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: -3%;
+  margin-top: -2%;
+
+}
 .contont {
   display: flex;
   justify-content: center;
   flex-direction:row;
   flex-wrap: wrap;
-  
-
 
 }
 .btu{
@@ -130,11 +138,12 @@ section {
   width: 17.25em;
   box-shadow: 0 5px 25px rgba(1 1 1 /100%);
   border: 1px solid rgb(0, 0, 0);
-  padding: 0%;
+  padding:0;
   margin: 20px;
   transition: 0.7s ease;
   overflow:hidden;
-  border-radius: 10px;
+  border-radius: 20px;
+
 
 }
 .card:hover{
@@ -196,8 +205,8 @@ a hr{
   box-shadow: 20px 40px 20px 50px;
 }
 .contact hr{
-  width: 40%;
-  margin-left: 29.3%;
+  width:66%;
+  margin-left: 16%;
   margin-top: 1.2%;
   color: red;
 }
@@ -227,7 +236,34 @@ a hr{
 .componente-interno-geral:hover .componente-fundo-imagem:after {
   opacity: 1;
 }
-
+.a {
+  color: rgb(21, 0, 255);
+}
+.b{
+  color: black;
+}
+.d {
+  color: red;
+}
+.g {
+  color: rgb(240, 240, 28);
+}
+.f {
+  color: #1e00ff;
+}
+.l {
+  color: crimson;
+}
+.n {
+  color:green ;
+}
+.social-icons{
+  font-size: 1.5em;
+}
+.folder a {
+  text-decoration: none;
+  color: red;
+}
 .componente {
   position: absolute;
   left: 0;
